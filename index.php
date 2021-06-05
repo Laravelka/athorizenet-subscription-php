@@ -119,7 +119,7 @@ $subscription = new AuthorizeSubscription();
 
 $refId = 'ref_'.time(); // уникальный идентификатор, который вернется в ответе
 
-// аутинтефикация
+// аутентификация
 $subscription->authentication(MERCHANT_LOGIN_ID, MERCHANT_TRANSACTION_KEY);
 
 // название подписки
